@@ -1,17 +1,12 @@
-# luigis-mansion-3
+# nextendo-luigis-mansion-3 (nx-mod testing)
 
-NEX game server for **Luigi's Mansion 3**, built on the NextendoNetwork [nextendo-nex](https://github.com/NextendoNetwork/nextendo-nex) core. Source only, no binaries, no certs. Not affiliated with Nintendo.
+nx-mod's `testing` fork of [luigis-mansion-3](https://github.com/NextendoNetwork/luigis-mansion-3): Luigi's Mansion 3 NEX server on the nextendo-nex core.
+Part of [nextendo-testing](https://github.com/nx-mod/nextendo-testing): the whole Nextendo Network, run on a LAN. Upstream's README is kept as [README.upstream.md](README.upstream.md).
 
-## Build
+## nx-mod changes
 
-Clone this repo and `nextendo-nex` side by side (the `go.mod` `replace` directive points at `../nextendo-nex`), then:
-
-    go build ./...
-
-See `example.env` for configuration.
+None: `testing` tracks upstream unchanged.
 
 ## Credits
 
-Luigi's Mansion 3 server implementation by [**@LITTLECHOPT8**](https://github.com/LITTLECHOPT8).
-
-Hardened for production by the NextendoNetwork maintainers: signed-token identity gate (anti-impersonation), leaked-token denylist, fail-closed internal endpoints, and bounded NAT/presence state.
+luigis-mansion-3 is the work of the **Nextendo Network team** — https://nextendo.network. nx-mod only adds the changes above, for LAN testing. Nextendo is awesome.
